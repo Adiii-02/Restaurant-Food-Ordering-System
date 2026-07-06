@@ -1,3 +1,6 @@
+CREATE DATABASE IF NOT EXISTS restaurant_db;
+USE restaurant_db;
+
 -- MySQL dump 10.13  Distrib 8.0.43, for Win64 (x86_64)
 --
 -- Host: localhost    Database: restaurant_db
@@ -64,7 +67,6 @@ CREATE TABLE `orders` (
 
 LOCK TABLES `orders` WRITE;
 /*!40000 ALTER TABLE `orders` DISABLE KEYS */;
-INSERT INTO `orders` VALUES (1,'ADIII',1070,'2026-05-04 16:33:41'),(2,'Adiii',775,'2026-05-04 16:50:36'),(3,'ADII',640,'2026-05-04 17:34:59'),(4,'ADIII',1690,'2026-05-04 17:50:08'),(5,'ADIII',200,'2026-05-04 17:50:27'),(6,'ADIII',1150,'2026-05-04 18:01:24'),(7,'adiii',460,'2026-05-04 18:29:46'),(8,'ADIII',1030,'2026-05-04 19:18:33'),(9,'aditya',790,'2026-05-04 21:19:11');
 /*!40000 ALTER TABLE `orders` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
